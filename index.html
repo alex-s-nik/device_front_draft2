@@ -9,74 +9,192 @@
   </head>
   <body>
  
-    <div class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-          
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
-          
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-                <a class="navbar-item">
-                  Главная
-                </a>
-                
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                      Справочники
-                    </a>
+    <div class="container has-navbar-fixed-bottom is-flex is-flex-direction-column" style="min-height: 100vh;">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Главная
+            </a>
             
-                    <div class="navbar-dropdown">
-                      <a class="navbar-item">
-                        Подразделения
-                      </a>
-                      <a class="navbar-item">
-                        Устройства
-                      </a>
-                      <a class="navbar-item">
-                        МОЛы
-                      </a>
-                      
-                    </div>
-                </div>
-
-                <a class="navbar-item">
-                  Отчеты
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Справочники
                 </a>
-                <a class="navbar-item">
-                    Настройки
-                </a>
-                <a class="navbar-item">
-                    Избранное
-                </a>          
-                
-              </div>
-          
-              <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="field has-addons">
-                        <div class="control">
-                          <input class="input is-small" type="text" placeholder="Найти">
-                        </div>
-                        <div class="control">
-                          <a class="button is-small is-info">
-                            Поиск
-                          </a>
-                        </div>
-                      </div>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    Подразделения
+                  </a>
+                  <a class="navbar-item">
+                    Устройства
+                  </a>
+                  <a class="navbar-item">
+                    МОЛы
+                  </a>
+                  
                 </div>
-              </div>
             </div>
-          </nav>
 
-          <h1 class="title">Система учета компьютерной техники</h1>
-          
+            <a class="navbar-item">
+              Отчеты
+            </a>
+            <a class="navbar-item">
+                Настройки
+            </a>
+            <a class="navbar-item">
+                Избранное
+            </a>          
+            
+          </div>
+        
+          <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field has-addons">
+                    <div class="control">
+                      <input class="input is-small" type="text" placeholder="Найти">
+                    </div>
+                    <div class="control">
+                      <a class="button is-small is-info">
+                        Поиск
+                      </a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="title">Система учета компьютерной техники</h1>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Тип</th>
+            <th>Название</th>
+            <th>Состав</th>
+            <th>Место установки</th>
+            <th>Сеть</th>
+            <th>Инв.</th>
+            <th>S/n</th>
+            <th>Примечание</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>ПК</td>
+            <td>-</td>
+            <td>Core i3-6200, 6Gb</td>
+            <td>Главный корпус</td>
+            <td>192.168.1.1</td>
+            <td>И0000001</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Монитор</td>
+            <td>Samsung S2420</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000002</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>МФУ</td>
+            <td>HP LaserJet 1606</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000003</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>USB-Flash</td>
+            <td>Trancsend 8Gb</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>ПК</td>
+            <td>-</td>
+            <td>Celeron, 6Gb</td>
+            <td>Главный корпус</td>
+            <td>192.168.1.2</td>
+            <td>И0000004</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Коммутатор</td>
+            <td>TP-Link</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>192.168.1.100</td>
+            <td>И0000005</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+      <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <a class="pagination-previous">Previous</a>
+        <a class="pagination-next">Next page</a>
+        <ul class="pagination-list">
+          <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+          <li><span class="pagination-ellipsis">&hellip;</span></li>
+          <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+          <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+          <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+          <li><span class="pagination-ellipsis">&hellip;</span></li>
+          <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+        </ul>
+      </nav>
+      <div class="is-flex-grow-1 wrapper-for-sticky-footer">
+        
+        
+      </div>
+      <footer class="footer is-flex-shrink-0">
+        <div class="content has-text-centered">
+          <p>
+            Devices - система учета компьютерной техники.
+          </p>
+        </div>
+      </footer>
     </div>
- 
+    
   </body>
 </html>
