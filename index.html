@@ -168,21 +168,81 @@
             <td>-</td>
             <td>-</td>
           </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Сканер</td>
+            <td>HP</td>
+            <td>-</td>
+            <td>Главный корпус</td>
+            <td>-</td>
+            <td>И0000006</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
         </tbody>
       </table>
-      <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-        <a class="pagination-previous">Previous</a>
-        <a class="pagination-next">Next page</a>
-        <ul class="pagination-list">
-          <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
-          <li><span class="pagination-ellipsis">&hellip;</span></li>
-          <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
-          <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
-          <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
-          <li><span class="pagination-ellipsis">&hellip;</span></li>
-          <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
-        </ul>
-      </nav>
+      <div class="add-button is-flex pb-2">
+        <button class="button is-primary" id="add-device">Добавить устройство</button>
+      </div>
+      <div class="wrapper is-flex">
+        <nav class="pagination" role="navigation" aria-label="pagination">
+          <a class="pagination-previous">Previous</a>
+          <a class="pagination-next">Next page</a>
+          <ul class="pagination-list">
+            <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+            <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+            <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="is-flex-grow-1 wrapper-for-sticky-footer">
         
         
@@ -196,5 +256,224 @@
       </footer>
     </div>
     
+
+    <div class="modal">
+      <div class="modal-background close-modal"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Modal title</p>
+          <button class="delete close-modal" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="columns">
+            <div class="column">
+              
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Местонахождение</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <span class="select">
+                        <select>
+                          <option>Главный корпус</option>
+                          <option>Филиал №1</option>
+                          <option>Филиал №2</option>
+                        </select>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Марка</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Название</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Входит в</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <span class="select">
+                        <select>
+                          <option>Устройство 1</option>
+                          <option>Устройство 2</option>
+                          <option>Устройство 3</option>
+                        </select>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">IP</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Инв. номер</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">S/n</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="column">
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Тип</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <span class="select">
+                        <select>
+                          <option>Системный блок</option>
+                          <option>Монитор</option>
+                          <option>Принтер</option>
+                          <option>МФУ</option>
+                          <option>ИБП</option>
+                          <option>Роутер</option>
+                        </select>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Год выпуска</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text">
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">МОЛ</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <span class="select">
+                        <select>
+                          <option>Иванова И.И.</option>
+                          <option>Петрова П.П.</option>
+                          <option>Сидорова С.С.</option>
+                        </select>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="field is-grouped">
+                <label class="checkbox">
+                  <input type="checkbox">
+                  Remember me
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox">
+                  Remember me
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox">
+                  Remember me
+                </label>
+              </div>
+              
+
+            </div>
+          </div>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Save changes</button>
+          <button class="button close-modal">Cancel</button>
+        </footer>
+      </div>
+    </div>
+    <script>
+      /*
+        Open/close modal window code
+      */
+      let addButton = document.querySelector('#add-device');
+      let modalWindow = document.querySelector('.modal');
+      let modalWindowCloseElements = document.querySelectorAll('.close-modal');
+
+      addButton.addEventListener('click', () => {
+        modalWindow.classList.add('is-active');
+        document.documentElement.classList.add('is-clipped');
+      });
+
+      modalWindowCloseElements.forEach(element => {
+        element.addEventListener('click', () => {
+          modalWindow.classList.remove('is-active');
+          document.documentElement.classList.remove('is-clipped');
+        })
+      })
+
+    </script>
   </body>
 </html>
